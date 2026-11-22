@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 
-const links = ['home', 'about', 'education', 'skills', 'projects', 'certifications', 'contact'];
+const links = ['home', 'about', 'education', 'experience', 'skills', 'projects', 'certifications', 'contact'];
 
 export default function Navbar() {
   const [active, setActive] = useState('home');
